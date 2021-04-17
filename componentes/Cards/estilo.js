@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
 
+
   const estilo = StyleSheet.create({
     boxDados: {
       padding: 30,
@@ -12,7 +13,7 @@ import { StyleSheet } from "react-native";
     boxCard: {
       backgroundColor: '#ddf2ed',
       minWidth: 150,
-
+      width: "100%",
       alignItems: "center",
 
       paddingVertical: 10,
@@ -32,11 +33,28 @@ import { StyleSheet } from "react-native";
     boxCardTexto: {
       color: '#00a79d'
     },
+    input: {
+      color:  '#00a79d',
+      borderWidth: 1,
+      borderColor: '#00a79d',
+      borderRadius: 3,
+      width: 100,
+      paddingHorizontal: 5,
+      marginLeft: 10 ,
+      fontSize: 26
+    },
 
     boxCardValor: {
       color: '#00a79d',
       fontSize: 20,
       fontWeight: "700"
+    },
+    boxBotao: {
+      
+      minWidth: 130,
+      marginTop: 30,
+      width: '100%'
+     
     },
   });
 
